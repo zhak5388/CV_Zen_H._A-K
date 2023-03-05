@@ -1,0 +1,16 @@
+.contenuPrincipal{
+
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+
+    
+    
+    &__gauche{
+        margin-right: 20px;
+        width: 45%;
+    }
+    &__droite{
+        width: 53%;
+    }
+}

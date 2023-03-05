@@ -1,0 +1,23 @@
+.flairLine {
+    display: flex;
+    column-gap: 20px;
+
+    &__item{
+        margin-bottom: 2px;
+        display: flex;
+        align-items: center;
+
+        i {
+            padding-right: 4px;
+            font-size: $tailleParDefautSection + 5;
+        }
+        span{
+            font-weight: bold;
+        }
+        &___travail{
+            i {
+                font-size: $tailleParDefautSection + 3;
+            }
+        }
+    }
+}

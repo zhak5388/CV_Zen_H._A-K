@@ -1,0 +1,55 @@
+//Titres: Source Code Pro
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+//font-family: 'Source Code Pro', monospace;
+
+//Defaut : texte
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+//font-family: 'Inter', sans-serif;
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css);
+
+//Définition polices de caractères
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+a
+{
+    color:inherit;
+    text-decoration: none;
+    
+    &:visited
+    {
+        color:inherit;
+    }
+}
+
+h1,h2,h3{
+    font-family: 'Source Code Pro';
+}
+
+//Tailles des polices
+h1{
+    font-size: $tailleNom;
+}
+
+//Couleurs des polices
+body{
+    color: $colorMainText;
+}
+
+h1,h2{
+    color: $colorTitleSection;
+}
+
+h3{
+    color: $colorSubTitle;
+}
+
+.texteSouligne{
+    text-decoration: underline;
+}
+
+.texteItalique{
+    font-style: italic;
+}

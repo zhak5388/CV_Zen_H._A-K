@@ -1,0 +1,91 @@
+
+.section{
+    
+    &__titre{
+        font-size: $tailleTitreSection;
+        margin-top: 15px;
+        margin-bottom: 5px;
+
+        &--premier{
+            margin-top: 0;
+        }
+
+        &___apropos{
+            margin-top: 8px;
+        }
+        
+    }
+
+    &--universitaire{
+        p{
+            font-size: $tailleParDefautSection + 1px;
+        }
+    }
+
+    &__contenu{ 
+        &--softskills{
+            margin-left: $margeSousSection;
+            
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+        &___softskills{
+            .sousSection{
+                margin-left: 20px;
+            }
+        }
+        /*
+        //Deprécié | Langues 
+        &___langues{
+            display: flex;
+            align-items: flex-start;
+        }*/
+    }
+    
+
+    //Specifique à Langue
+    //Déprécié
+    /*
+    table{
+        font-size: $tailleParDefautSection ;//- 1px;//+ 1px;
+        margin-left: $margeSousSection;
+        max-width: 50%;
+        //border: 1px dashed black;
+
+        border-collapse: collapse;
+        //color: blue;
+        //font-weight: 600;
+
+        td{
+            //border: 1px solid black;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            height: 10px;
+            
+        }
+
+        td:nth-child(1){
+            //color: $colorSubTitleTwo;
+            color: $colorMainText;
+            width: 60px;
+            font-weight: 600;
+            //color: red;
+        } 
+
+        td:nth-child(2){
+            width: 40px;
+            //color: green;
+            text-align: center;
+            border-left: 2px solid $colorMainText;
+            font-weight: 600;
+        }
+        td:nth-child(3){
+            font-size: $tailleParDefautSection ;//- 1px;//+ 1px;
+            font-family: 'Source Code Pro';
+            text-transform: uppercase;
+        }
+    }
+    */
+
+}

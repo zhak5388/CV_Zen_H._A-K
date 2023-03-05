@@ -1,0 +1,33 @@
+body{
+    box-sizing:border-box;
+    margin: 0;
+
+    background-color: $backgroundBody;
+}
+
+main{
+    width: $widthPageA4;
+    height: $heightPageA4;
+
+    //For testing purposes
+    background-color: $backgroundWrapper;
+
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .wrapper{
+        width: $widthContentA4;
+        height: $heightContentA4;
+        overflow:hidden;
+
+        background-color: $backgroundColorWhite;
+        
+    }
+}
+
+p{
+    margin: 0;
+}

@@ -1,0 +1,18 @@
+@import "../CSS/normalize.css";
+
+
+@import "./1_utils/_variables.scss";
+@import "./1_utils/_variablesTypo.scss";
+
+@import "./2_base/_base.scss";
+@import "./2_base/_typography.scss";
+
+@import "./3_layout/_entete.scss";
+@import "./3_layout/_contenuPrincipal.scss";
+
+@import "./4_components/_section.scss";
+@import "./4_components/_sousSection.scss";
+@import "./4_components/_flairLine.scss";
+@import "./4_components/_softskillbox.scss";
+
+@import "./5_media_queries/_print.scss";

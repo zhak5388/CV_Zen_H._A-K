@@ -1,0 +1,98 @@
+.sousSection{
+    margin-bottom: 5px;
+    > div , p{
+        margin-left: $margeSousSection;
+    }
+
+    &__descriptionTexte{
+        text-align: justify;
+    }
+    &__titre{
+        font-size: $tailleTitreSection - 3;
+        margin: 0;
+        text-transform: uppercase;
+        font-weight: 700;
+
+        //Spécifique à projets
+        &--projets{
+            display: flex;
+            align-items: center;
+            i{
+                font-size: $tailleTitreSection + 5px; 
+                margin-right: 5px;
+            }
+            &__typeprojet{
+                font-size: $tailleTitreSection - 5px;
+                font-weight: normal;
+            }
+
+        }
+
+        &___travail{
+                font-size: $tailleTitreSection - 4px;
+            
+            &__typeTravail{
+                font-size: $tailleTitreSection - 7px;
+                font-weight: normal;
+            }
+        }
+    }
+    &__descriptionLigne, &__descriptionTexte{
+        //border: 1px dashed red;
+        font-size: $tailleParDefautSection;
+    }
+
+    //Spécifique à competences
+    &__descriptionTexte{
+        &--skill{
+            font-size: $tailleParDefautSection + 1px;
+            padding-top: 2px;
+
+        }
+    }
+
+    //Spécifique à projets
+    &__descriptionTexte{
+        margin: 0;
+        &___listeProjets{
+
+            list-style: square;
+            margin: 0;
+            margin-top: 2px;
+            padding: 0;
+            padding-left: 30px;
+            
+            li{
+                text-align: justify;
+                font-size: $tailleParDefautSection + 0.5px;
+            }
+        }
+    }
+
+    &__descriptionTexte{
+        &--nonjustifie{
+            text-align: left;
+        }
+
+        &--cpu{
+            padding-left: 7px;
+            margin-top: 3px;
+            a{
+                text-decoration: underline;
+                color: $couleurLien;
+            }
+        }
+    }
+
+    &--iut{
+        margin-top: 2px;
+        margin-bottom: 7px;
+        &__descriptionLigne{
+            &--major{
+                padding-top: 2px;
+                padding-bottom: 2px;
+            }
+
+        }
+    }
+}
